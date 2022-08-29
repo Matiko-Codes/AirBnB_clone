@@ -21,35 +21,42 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 ---
 ### Execution
 This how our shell should work like in an interactive mode:
-`$ ./console.py`
-`(hbnb) help`
 
-`Documented commands (type help <topic>):`
-`========================================`
-`EOF  help  quit`
+```shell
+$ ./console.py
+(hbnb) help
 
-`(hbnb)`
-`(hbnb)`
-`(hbnb) quit`
-`$`
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+```
+
 But also in non-interactive mode:(Like in Shell Project in C)
-`$ echo "help" | ./console.py`
-`(hbnb)`
 
-`Documented commands (type help <topic>):`
-`========================================`
-`EOF  help  quit`
-`(hbnb)`
-`$`
-`$ cat test_help`
-`help`
-`$`
-`$ cat test_help | ./console.py`
-`(hbnb)`
+```shell
+$ echo "help" | ./console.py
+(hbnb)
 
-`Documented commands (type help <topic>):`
-`========================================`
-`EOF  help  quit`
-`(hbnb)`
-`$`
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+```
 All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
