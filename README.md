@@ -24,9 +24,18 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 |:-------------------------------------|:-------------------------------------------------|
 |`quit`                  | Quits the console                  |
 |`CTRL + D`              | Quits the console                  |
-|`help` or `help<command>|Displays all commands or Displays instructions for a specific command|
+|`help` or `help<command>`|Displays all commands or Displays instructions for a specific command|
 |`update <class> <id> <attribute name> "<attribute value>"`|Updates an object with a certain attribute (new or existing)|
-
+|`create <class>`|Creates an object of type , saves it to a JSON file, and prints the objects ID|
+|`show <class> <ID>`|Shows string representation of an object|
+|`destroy <class> <ID>`|Deletes all objects|
+|`all` or `all <class>`|Prints all string representations of all objects or Prints all string representations of all objects of a specific class|
+|`<class>.all()`|Same as `all <class>`|
+|`<class>.count()`|Retrieves the number of objects of a certain class|
+|`<class>.show(<ID>)`|Same as `show <class> <ID>`|
+|`<class>.destroy(<ID>)`|Same as `destroy <class> <ID>`|
+|`<class>.update(<ID>, <attribute name>, <attribute value>`|Same as `update <class> <ID> <attribute name> <attribute value>`|
+|`<class>.update(<ID>, <dictionary representation>)`|Updates an objects based on a dictionary representation of attribute names and values|
 ### Execution
 This how our shell should work like in an interactive mode:
 
