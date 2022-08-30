@@ -1,5 +1,5 @@
 # AirBnB clone - The console
-![HNBN](https://imgur.com/a/4fOINn7)
+![HNBN](https://photos.app.goo.gl/u2mGEFy7MSgpUzcU6)
 ---
 ## Command Line Interpreter
 This is the first step towards our first full web application: the **AirBnB clone**. This step is important because we will use it with other upcoming projects i.e HTML/CSS templating, database storage, API, front-end intergration...
