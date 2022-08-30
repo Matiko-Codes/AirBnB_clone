@@ -19,6 +19,11 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 * Update attributes of an object
 * Destroy an object
 ---
+### Description of the command interpreter
+---
+|---|---|
+
+
 ### Execution
 This how our shell should work like in an interactive mode:
 
