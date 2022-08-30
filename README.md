@@ -20,9 +20,12 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 * Destroy an object
 ---
 ### Description of the command interpreter
----
-|---|---|
-
+|    Commands                          |             Description                          |
+|:-------------------------------------|:-------------------------------------------------|
+|`quit`                  | Quits the console                  |
+|`CTRL + D`              | Quits the console                  |
+|`help` or `help<command>|Displays all commands or Displays instructions for a specific command|
+|`update <class> <id> <attribute name> "<attribute value>"`|Updates an object with a certain attribute (new or existing)|
 
 ### Execution
 This how our shell should work like in an interactive mode:
