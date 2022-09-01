@@ -76,4 +76,6 @@ EOF  help  quit
 (hbnb) 
 $
 ```
-All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
+
+	All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
+	//This work was a team work basic intro to creating a final project 
