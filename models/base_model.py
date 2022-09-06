@@ -7,7 +7,6 @@ import uuid
 from datetime import datetime
 from models import storage
 
-
 class BaseModel:
     """
     defines all common attributes/methods for other classes
@@ -31,8 +30,7 @@ class BaseModel:
 
     def __str__(self):
         """string repr of obj"""
-        return '[{}] ({}) {}'.format(self.__class__.__name__,
-                                     self.id, self.__dict__)
+        return '[{}] ({}) {}'.format(self.__class__.__name__, self.id, self.__dict__)
 
     def save(self):
         """updates the public instance attribute"""
