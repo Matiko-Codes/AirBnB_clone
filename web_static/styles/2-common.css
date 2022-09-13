@@ -1,7 +1,11 @@
 body {
+<<<<<<< HEAD
 
 	margin:0px;
 
 	padding:0px;
 
+=======
+    min-height: 100%;
+>>>>>>> c788664215b6d3d7eeefb2b4fd0e7f8180c9f584
 }

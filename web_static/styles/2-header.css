@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
 
 	background-color:#FF0000;
@@ -6,4 +7,10 @@ header {
 
 	width:100%;
 
+=======
+header div {
+    background-color: #ff0000;
+    height: 70px;
+    width: 100%;
+>>>>>>> c788664215b6d3d7eeefb2b4fd0e7f8180c9f584
 }
